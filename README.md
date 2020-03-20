@@ -65,11 +65,12 @@ As illustrated in above architecture diagram, this demo app mainly consists of b
 
 ## Use AWS CDK to deploy CQRS CloudFormation stack
 
-- Clone source code by `git clone http://git.awsrun.com/dapengt/cqrs.git` (TODO), run:
+- Clone source code by `git clone https://github.com/aws-samples/cqrs-lab-on-aws`, run:
 
   - `cd cqrs/src/`
   - `sudo /usr/local/bin/pip3 install -r requirements.txt`
   - `npm install -g aws-cdk`
+  - `lambda/install_pymysql.sh`
   - `cdk bootstrap`
 
 - Verify cloudformation stack "[CDKToolkit](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/stackinfo?filteringText=&filteringStatus=active&viewNested=true&hideStacks=false&stackId=arn%3Aaws%3Acloudformation%3Aus-east-1%3A124456859051%3Astack%2FCDKToolkit%2Fe3a87f40-e010-11e9-95bf-120fc18a2440)" is created for managing CDK meta data
