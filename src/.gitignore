@@ -1,0 +1,6 @@
+.env
+.pytest_cache
+.vscode
+cdk.out
+**/__pycache__/
+**/*.egg-info/
