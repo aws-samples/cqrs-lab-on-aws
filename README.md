@@ -1,7 +1,5 @@
 # Introduction
 
-(See https://aws-cqrs-lab.s3.amazonaws.com/index.html for Hugo site verison.)
-
 This is a air ticketing booking demo app for CQRS(Command Query Responsibility Seggregation) pattern , the goal of this sample app is to demonstrate CQRS architecture concept and its reference architecture, design and implementation based on AWS services, which include:
 
 - IAM
